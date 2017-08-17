@@ -1,0 +1,20 @@
+{
+  "name": "collaborative-editing-table",
+  "author": "Ted Benson <eob@csail.mit.edu>",
+  "scripts": {
+    "clean": "rm -rf release",
+    "build": "npm run clean; tsc",
+    "test": "npm run build; find release/test -name '*.spec.js' | xargs node_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.2",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.1.1",
+    "hat": "0.0.3",
+    "mocha": "^3.5.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "uuid": "^3.1.0"
+  }
+}

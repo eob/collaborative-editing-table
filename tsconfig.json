@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "release",
+    "target": "es5",
+    "sourceMap": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es2015", "dom"]
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules"
+  ],
+  "formatCodeOptions": {
+    "indentSize": 2,
+    "tabSize": 2,
+    "convertTabsToSpaces": true,
+    "insertSpaceAfterCommaDelimiter": true,
+    "insertSpaceAfterSemicolonInForStatements": true,
+    "insertSpaceBeforeAndAfterBinaryOperators": true,
+    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "placeOpenBraceOnNewLineForFunctions": false,
+    "placeOpenBraceOnNewLineForControlBlocks": false
+  }
+}
